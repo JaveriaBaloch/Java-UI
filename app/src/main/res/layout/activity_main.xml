@@ -9,6 +9,13 @@
     tools:context=".MainActivity"
     tools:ignore="ExtraText">
 
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:textSize="20sp"
+        android:hint="Enter some text"
+        />
 
     <TextView
         android:id="@+id/txt2"
