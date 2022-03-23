@@ -2,6 +2,7 @@ package com.javeria.appthree;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -20,6 +21,15 @@ TextView textview;
 //        textview.animate().rotationYBy(30);
 //        textview.animate().alpha(0).setDuration(4000).start();
         textview.animate().scaleY(2.2f).scaleX(2.2f).setDuration(4000).start();
+        textview.animate().translationX(20).translationY(20).setDuration(4000).start();
+        textview.animate().rotationY(30);
 
+    }
+
+    public void goToTheSecondScreen(View view) {
+//        Intent intent = new Intent(Start screen.this, navigateScreen.class);
+        Intent intent = new Intent(MainActivity.this, ActivityScreenTwo.class);
+//        startActivity(Intent variable);
+          startActivity(intent);
     }
 }
