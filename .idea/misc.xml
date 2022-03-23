@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/bonds/Desktop/AppThree/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/bonds/Desktop/AppThree/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/bonds/Desktop/AppThree/app/src/main/res/drawable/rounded_button.xml" value="0.1" />
+        <entry key="..\:/Users/bonds/Desktop/AppThree/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
       </map>
     </option>
   </component>
